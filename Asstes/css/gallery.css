@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #293241;
+}
+span{
+    color: #98C1DA;
+}
+.contanier{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 40px 20px 0 10px;
+}
+.contanier .heading{
+   width: 50%;
+   padding-bottom: 50px;
+}
+.contanier .heading h3{
+      font-size: 3em;
+      color: #EE6c40;
+      font-weight: bolder;
+      padding-bottom: 10px;
+      border-bottom: 3px solid  #98C1DA;
+}
+.contanier .heading h3 span{
+    font-weight: 100;
+}
+.contanier .box{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.contanier .box .dream{
+     display: flex;
+     flex-direction: column;
+     width: 35%;
+
+}
+.dream img{
+    width: 100%;
+    padding: 20px;
+}
